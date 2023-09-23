@@ -3,7 +3,7 @@
 
 use core::panic::PanicInfo;
 
-static HELLO: &[u8] = b"Hello World!";
+static HELLO: &[u8] = b"Rust OS 0.1.0";
 
 #[panic_handler]
 fn panic(_info: &PanicInfo) -> ! {
